@@ -1,6 +1,6 @@
 # 🚀 Zohaib Khan | Full Stack MERN Developer
 
-![Portfolio Preview](https://via.placeholder.com/1200x400/0a0a0f/6c63ff?text=Zohaib+Khan+-+Portfolio)
+[![Live Website](https://img.shields.io/badge/🚀_View_Live_Website-Click_Here-00d4ff?style=for-the-badge&labelColor=0a0a0f)](https://portfolio-website-lemon-seven-13.vercel.app/)
 
 Welcome to the repository for my personal portfolio website! This project showcases my skills, experience, and projects as a **Full Stack MERN Developer** with a strong background in **Bioinformatics**, **AI**, and **Data Science**. 
 
