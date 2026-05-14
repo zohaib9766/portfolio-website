@@ -6,12 +6,26 @@ import '../styles/Projects.css';
 const Projects = () => {
   const projectsData = [
     {
+      title: "Metagenomic Deconvolution & Genome Reconstruction",
+      tags: ["Oxford Nanopore", "Flye", "Medaka", "Bakta", "Linux", "Python"],
+      description: "Engineered a multi-phase bioinformatics pipeline to process 14GB ONT metagenomic dataset.Successfully reconstructed novel Aureimonas species and Bacillus cereus genomes using advanced assembly and polishing workflows.",
+      icon: <FaDna />,
+      badge: "Final Year Project"
+    },
+    {
       title: "Bella Cucina – Restaurant App",
       tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
       description: "Full stack food ordering system with JWT authentication, secure password handling with bcrypt, and complete CRUD operations.",
       icon: <FaUtensils />,
       github: "https://github.com/zohaib9766",
       badge: "Full Stack"
+    },
+    {
+      title: "Lycium Barbarum — Computational Drug Discovery",
+      tags: ["Molecular Docking", "Virtual Screening", "Python", "Bioinformatics"],
+      description: "Exploring potential of Lycium Barbarum metabolites against multiple diseases via systematic computational strategy. International collaboration with GenSphere, China.",
+      icon: <FaMicroscope />,
+      badge: "Research"
     },
     {
       title: "TaskFlow – Task Manager",
