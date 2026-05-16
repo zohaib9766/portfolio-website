@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaUtensils, FaTasks, FaDna, FaMicroscope, FaBrain } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaUtensils, FaTasks, FaDna, FaMicroscope, FaBrain, FaHeartbeat } from 'react-icons/fa';
 import '../styles/Projects.css';
 
 const Projects = () => {
@@ -19,6 +19,15 @@ const Projects = () => {
       icon: <FaUtensils />,
       github: "https://github.com/zohaib9766",
       badge: "Full Stack"
+    },
+    {
+      title: "DiabetaAI — Diabetes Risk Prediction",
+      tags: ["Python", "Flask", "React", "Scikit-learn", "GradientBoosting", "Vercel"],
+      description: "AI-powered diabetes risk prediction web app trained on CDC BRFSS 2015 dataset with 253,680 real patient records achieving 85% accuracy using GradientBoosting classifier.",
+      icon: <FaHeartbeat />,
+      github: "https://github.com/zohaib9766/DiabetaAI",
+      demo: "https://diabeta-ai.vercel.app",
+      badge: "AI / ML"
     },
     {
       title: "Lycium Barbarum — Computational Drug Discovery",
